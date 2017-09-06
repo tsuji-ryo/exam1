@@ -1,8 +1,9 @@
 header {
   width: 100%;
-  background-color: #2C7CFF;
   height: 54px;
+  background-color: #fff;
 }
+
 
 header ul {
   margin: 0 auto;
@@ -13,12 +14,15 @@ header ul a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: white;
+  color: #657786;
+
 }
+
 
 header li {
   float: left;
   width: auto;
+
 }
 
 header ul:after {
@@ -43,14 +47,15 @@ header ul:after {
 }
 
 .about {
-  background-color: white;
+  background-color: #f5f8fa;
   color: #333;
-  padding: 80px;
+  padding: 300px;
 }
 
 .function {
   padding: 80px;
   padding-bottom: 185px;
+  background-color: #f5f8fa;
 }
 
 .function-images {
@@ -63,11 +68,11 @@ header ul:after {
 .function-image {
   display: table-cell;
   width: 100%;
+  
 }
 
 footer {
   width: 100%;
-  background-color:#2C7CFF;
   padding: 20px 0 10px 0;
   color: white;
   margin: auto;
@@ -75,6 +80,10 @@ footer {
   font-size: 12px;
   position: absolute;
   bottom: 0;
+  color: #657786;
+  background-color: #fff;
+
+
 }
 
 html {
@@ -84,4 +93,5 @@ html {
 
 body {
   text-align: center;
+  background: #e6ecf0;
 }
